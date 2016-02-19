@@ -9,4 +9,7 @@
 
     <string name="up">Up</string>
 
+    <string name="menu_detail_large">Large Text</string>
+    <string name="menu_detail_normal">Normal Text</string>
+
 </resources>
