@@ -2,6 +2,55 @@
 <items version="2" >
 
     <item
+        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_a2649911c295b9de8b99c67d7d524a79dce7a7fd.jar" />
+    </item>
+    <item
+        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f4d7a07120e76988f3a15403838d323c2400db83">
+        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_23ddc009fe580fc8c32be92fa12bdf098f75b9ca.jar" />
+    </item>
+    <item
+        jar="/home/julain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/1.1.0/d51280dbb4e8539f6c3f369d516edc26f9d89d31/okhttp-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
+        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-1.1.0_87c1e0166f1a84b360b27032a5abf3bc3dea49a6.jar" />
+    </item>
+    <item
+        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_ff935c2521b8af38bcbfca73fa285a7162dc0708.jar" />
+    </item>
+    <item
+        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
+        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.1.1_2d5a8bcba1777d5326db66385cd8f340777a4e6c.jar" />
+    </item>
+    <item
+        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_5178f9c99004a5709f40ddd3353910c06a82e11a.jar" />
+    </item>
+    <item
+        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a978650837318cf056bf3383ff02fe7a3b891f20">
+        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.1.1_ae306fe92c2734d26c32b87a53055085877b1f9e.jar" />
+    </item>
+    <item
         jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -30,60 +79,11 @@
         <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_a9ad66a161e520dbdce7b06032bc5e010fac9561.jar" />
     </item>
     <item
-        jar="/home/julain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/1.1.0/d51280dbb4e8539f6c3f369d516edc26f9d89d31/okhttp-1.1.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
-        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-1.1.0_87c1e0166f1a84b360b27032a5abf3bc3dea49a6.jar" />
-    </item>
-    <item
         jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/libs/volley.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
         <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/volley_c542436029401c2a50a68ae4d2d99660d4da7297.jar" />
-    </item>
-    <item
-        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
-        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.1.1_2d5a8bcba1777d5326db66385cd8f340777a4e6c.jar" />
-    </item>
-    <item
-        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_a2649911c295b9de8b99c67d7d524a79dce7a7fd.jar" />
-    </item>
-    <item
-        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_5178f9c99004a5709f40ddd3353910c06a82e11a.jar" />
-    </item>
-    <item
-        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a978650837318cf056bf3383ff02fe7a3b891f20">
-        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.1.1_ae306fe92c2734d26c32b87a53055085877b1f9e.jar" />
-    </item>
-    <item
-        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f4d7a07120e76988f3a15403838d323c2400db83">
-        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_23ddc009fe580fc8c32be92fa12bdf098f75b9ca.jar" />
-    </item>
-    <item
-        jar="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/home/julain/dev/projects/studio/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_ff935c2521b8af38bcbfca73fa285a7162dc0708.jar" />
     </item>
 
 </items>
