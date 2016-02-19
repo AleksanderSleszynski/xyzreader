@@ -47,7 +47,7 @@ MERGED from [com.android.support:cardview-v7:23.1.1] /home/julain/dev/projects/s
 	android:icon
 		ADDED from /home/julain/dev/projects/studio/xyzreader/XYZReader/src/main/AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from /home/julain/dev/projects/studio/xyzreader/XYZReader/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /home/julain/dev/projects/studio/xyzreader/XYZReader/src/main/AndroidManifest.xml:15:9-40
 activity#com.example.xyzreader.ui.ArticleListActivity
 ADDED from /home/julain/dev/projects/studio/xyzreader/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
 	android:label
