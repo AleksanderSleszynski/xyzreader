@@ -49,6 +49,7 @@ public class ArticleDetailFragment extends Fragment implements
     private long mItemId;
     private SharedPreferences mPrefs;
     private TextView mTextBody;
+    private Toolbar mToolbar;
     private View mRootView;
 
 
@@ -121,6 +122,7 @@ public class ArticleDetailFragment extends Fragment implements
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo_image_view);
 
         mCollapsingToolbar = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
+        mToolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
 
         mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -140,7 +142,11 @@ public class ArticleDetailFragment extends Fragment implements
         }
         mTextBody = (TextView) mRootView.findViewById(R.id.body_text_view);
         if (mPrefs.getBoolean(KEY_LARGE_TEXT, false)) {
-            mTextBody.setTextAppearance(getActivity(), android.R.style.TextAppearance_Large);
+            if(Build.VERSION.SDK_INT < 23) {
+                mTextBody.setTextAppearance(getActivity(), android.R.style.TextAppearance_Large);
+            } else {
+                mTextBody.setTextAppearance(android.R.style.TextAppearance_Large);
+            }
         }
 
         bindViews();
@@ -159,10 +165,12 @@ public class ArticleDetailFragment extends Fragment implements
                     new Date(mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE)),
                     mCursor.getString(ArticleLoader.Query.AUTHOR)));
             mCollapsingToolbar.setTitle(mCursor.getString(ArticleLoader.Query.TITLE));
+            mCollapsingToolbar.setVisibility(View.VISIBLE);
+            Log.e("PENIS", mCursor.getString(ArticleLoader.Query.TITLE));
             Glide.with(getActivity())
-                    .load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
-                    .centerCrop()
-                    .into(mPhotoView);
+                .load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
+                .centerCrop()
+                .into(mPhotoView);
         }
     }
 

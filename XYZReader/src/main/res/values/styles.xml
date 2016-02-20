@@ -20,5 +20,16 @@
         <item name="colorPrimary">@color/indigo_500</item>
         <item name="colorPrimaryDark">@color/indigo_700</item>
         <item name="colorAccent">@color/amber_a200</item>
+        <item name="android:fitsSystemWindows">true</item>
     </style>
+    
+    <style name="ToolbarFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTransparent" parent="AppTheme">
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
 </resources>
